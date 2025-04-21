@@ -1,7 +1,7 @@
 module bound_flasher(clock, reset, flick, led);
 
 input clock, reset, flick;
-
+//output
 output [15:0] led;
 
 //input ports data type
