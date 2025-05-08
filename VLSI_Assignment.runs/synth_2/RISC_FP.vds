@@ -1,0 +1,642 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May  8 12:58:09 2025
+# Process ID: 376
+# Current directory: C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.runs/synth_2
+# Command line: vivado.exe -log RISC_FP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISC_FP.tcl
+# Log file: C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.runs/synth_2/RISC_FP.vds
+# Journal file: C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source RISC_FP.tcl -notrace
+Command: synth_design -top RISC_FP -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7868 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 388.395 ; gain = 97.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RISC_FP' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/RISC_FP.v:22]
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter OPCODE_WIDTH bound to: 4 - type: integer 
+	Parameter OPERAND_WIDTH bound to: 5 - type: integer 
+	Parameter INST_WIDTH bound to: 9 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter FRACT_WIDTH bound to: 4 - type: integer 
+	Parameter S_INST_ADDR bound to: 3'b000 
+	Parameter S_INST_FETCH bound to: 3'b001 
+	Parameter S_INST_LOAD bound to: 3'b010 
+	Parameter S_IDLE bound to: 3'b011 
+	Parameter S_OP_ADDR bound to: 3'b100 
+	Parameter S_OP_FETCH bound to: 3'b101 
+	Parameter S_ALU_OP bound to: 3'b110 
+	Parameter S_STORE bound to: 3'b111 
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/ProgramCounter.v:21]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/ProgramCounter.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Memory' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:21]
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter OPCODE_WIDTH bound to: 4 - type: integer 
+	Parameter OPERAND_WIDTH bound to: 5 - type: integer 
+	Parameter INST_WIDTH bound to: 9 - type: integer 
+	Parameter DEPTH bound to: 32 - type: integer 
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+WARNING: [Synth 8-3848] Net mem in module/entity Instruction_Memory does not have driver. [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Memory' (2#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Register' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Register.v:21]
+	Parameter OPCODE_WIDTH bound to: 4 - type: integer 
+	Parameter OPERAND_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Register' (3#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Instruction_Register.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Address_Mux' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Address_Mux.v:21]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Address_Mux' (4#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Address_Mux.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Data_Memory' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Data_Memory.v:21]
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Data_Memory' (5#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Data_Memory.v:21]
+WARNING: [Synth 8-350] instance 'dmem_u' of module 'Data_Memory' requires 8 connections, but only 7 given [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/RISC_FP.v:160]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/ALU.v:22]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter OPCODE_WIDTH bound to: 4 - type: integer 
+	Parameter FRACT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ALU_Control_Unit' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/ALU_Control_Unit.v:21]
+	Parameter OPCODE_WIDTH bound to: 4 - type: integer 
+	Parameter CTRL_WIDTH bound to: 4 - type: integer 
+	Parameter CTRL_HLT bound to: 4'b0000 
+	Parameter CTRL_SKZ bound to: 4'b0001 
+	Parameter CTRL_ADD bound to: 4'b0010 
+	Parameter CTRL_AND bound to: 4'b0011 
+	Parameter CTRL_XOR bound to: 4'b0100 
+	Parameter CTRL_LDA bound to: 4'b0101 
+	Parameter CTRL_STO bound to: 4'b0110 
+	Parameter CTRL_JMP bound to: 4'b0111 
+	Parameter CTRL_FMUL bound to: 4'b1000 
+	Parameter CTRL_FDIV bound to: 4'b1001 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Control_Unit' (6#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/ALU_Control_Unit.v:21]
+INFO: [Synth 8-6157] synthesizing module 'ALU_DP_Unit' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/ALU_DP_Unit.v:21]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter FRACT_WIDTH bound to: 4 - type: integer 
+	Parameter CTRL_WIDTH bound to: 4 - type: integer 
+	Parameter CTRL_HLT bound to: 4'b0000 
+	Parameter CTRL_SKZ bound to: 4'b0001 
+	Parameter CTRL_ADD bound to: 4'b0010 
+	Parameter CTRL_AND bound to: 4'b0011 
+	Parameter CTRL_XOR bound to: 4'b0100 
+	Parameter CTRL_LDA bound to: 4'b0101 
+	Parameter CTRL_STO bound to: 4'b0110 
+	Parameter CTRL_JMP bound to: 4'b0111 
+	Parameter CTRL_FMUL bound to: 4'b1000 
+	Parameter CTRL_FDIV bound to: 4'b1001 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_DP_Unit' (7#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/ALU_DP_Unit.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (8#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/ALU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Accumulator_Register' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Accumulator_Register.v:21]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Accumulator_Register' (9#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Accumulator_Register.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Controller.v:22]
+	Parameter OPCODE_WIDTH bound to: 4 - type: integer 
+	Parameter S_INST_ADDR bound to: 3'b000 
+	Parameter S_INST_FETCH bound to: 3'b001 
+	Parameter S_INST_LOAD bound to: 3'b010 
+	Parameter S_IDLE bound to: 3'b011 
+	Parameter S_OP_ADDR bound to: 3'b100 
+	Parameter S_OP_FETCH bound to: 3'b101 
+	Parameter S_ALU_OP bound to: 3'b110 
+	Parameter S_STORE bound to: 3'b111 
+	Parameter OPC_HLT bound to: 4'b0000 
+	Parameter OPC_SKZ bound to: 4'b0001 
+	Parameter OPC_ADD bound to: 4'b0010 
+	Parameter OPC_AND bound to: 4'b0011 
+	Parameter OPC_XOR bound to: 4'b0100 
+	Parameter OPC_LDA bound to: 4'b0101 
+	Parameter OPC_STO bound to: 4'b0110 
+	Parameter OPC_JMP bound to: 4'b0111 
+	Parameter OPC_FMUL bound to: 4'b1000 
+	Parameter OPC_FDIV bound to: 4'b1001 
+INFO: [Synth 8-226] default block is never used [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Controller.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (10#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/Controller.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'RISC_FP' (11#1) [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/RISC_FP.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 443.242 ; gain = 152.566
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin dmem_u:rst to constant 0 [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sources_1/new/RISC_FP.v:160]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 443.242 ; gain = 152.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 443.242 ; gain = 152.566
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/risc_fp.xdc]
+Finished Parsing XDC File [C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/risc_fp.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 809.066 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "mem_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Controller'
+INFO: [Synth 8-5544] ROM "halt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_pc" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ld_pc" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wr" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ld_ir" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rd_imem" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             S_INST_ADDR |                         00000001 |                              000
+            S_INST_FETCH |                         00000010 |                              001
+             S_INST_LOAD |                         00000100 |                              010
+                  S_IDLE |                         00001000 |                              011
+               S_OP_ADDR |                         00010000 |                              100
+              S_OP_FETCH |                         00100000 |                              101
+                S_ALU_OP |                         01000000 |                              110
+                 S_STORE |                         10000000 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 35    
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 37    
+	   8 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RISC_FP 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module ProgramCounter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Instruction_Memory 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 1     
+Module Instruction_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+Module Address_Mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module Data_Memory 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 33    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module ALU_DP_Unit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
+Module Accumulator_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module Controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'imem_u/instr_out_reg[0]' (FDE) to 'imem_u/instr_out_reg[8]'
+INFO: [Synth 8-3886] merging instance 'imem_u/instr_out_reg[1]' (FDE) to 'imem_u/instr_out_reg[8]'
+INFO: [Synth 8-3886] merging instance 'imem_u/instr_out_reg[2]' (FDE) to 'imem_u/instr_out_reg[8]'
+INFO: [Synth 8-3886] merging instance 'imem_u/instr_out_reg[3]' (FDE) to 'imem_u/instr_out_reg[8]'
+INFO: [Synth 8-3886] merging instance 'imem_u/instr_out_reg[4]' (FDE) to 'imem_u/instr_out_reg[8]'
+INFO: [Synth 8-3886] merging instance 'imem_u/instr_out_reg[5]' (FDE) to 'imem_u/instr_out_reg[8]'
+INFO: [Synth 8-3886] merging instance 'imem_u/instr_out_reg[6]' (FDE) to 'imem_u/instr_out_reg[8]'
+INFO: [Synth 8-3886] merging instance 'imem_u/instr_out_reg[7]' (FDE) to 'imem_u/instr_out_reg[8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\imem_u/instr_out_reg[8] )
+INFO: [Synth 8-3886] merging instance 'ir_u/operand_reg[0]' (FDRE) to 'ir_u/operand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ir_u/operand_reg[1]' (FDRE) to 'ir_u/operand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ir_u/operand_reg[2]' (FDRE) to 'ir_u/operand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ir_u/operand_reg[3]' (FDRE) to 'ir_u/operand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ir_u/operand_reg[4]' (FDRE) to 'ir_u/opcode_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ir_u/opcode_reg[0]' (FDRE) to 'ir_u/opcode_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ir_u/opcode_reg[1]' (FDRE) to 'ir_u/opcode_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ir_u/opcode_reg[2]' (FDRE) to 'ir_u/opcode_reg[3]'
+INFO: [Synth 8-3886] merging instance 'operand_d_reg[0]' (FDCE) to 'opcode_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'operand_d_reg[1]' (FDCE) to 'opcode_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'operand_d_reg[2]' (FDCE) to 'opcode_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'operand_d_reg[3]' (FDCE) to 'opcode_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'operand_d_reg[4]' (FDCE) to 'opcode_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'opcode_reg_reg[0]' (FDCE) to 'opcode_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'opcode_reg_reg[3]' (FDCE) to 'opcode_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'opcode_reg_reg[1]' (FDCE) to 'opcode_reg_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\opcode_reg_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (ld_ir_d_reg) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (imem_u/instr_out_reg[8]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[0][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[0][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[0][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[0][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[0][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[0][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[0][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[0][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[1][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[1][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[1][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[1][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[1][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[1][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[1][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[1][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[2][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[2][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[2][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[2][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[2][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[2][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[2][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[2][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[3][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[3][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[3][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[3][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[3][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[3][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[3][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[3][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[4][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[4][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[4][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[4][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[4][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[4][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[4][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[4][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[5][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[5][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[5][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[5][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[5][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[5][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[5][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[5][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[6][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[6][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[6][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[6][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[6][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[6][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[6][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[6][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[7][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[7][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[7][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[7][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[7][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[7][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[7][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[7][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[8][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[8][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[8][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[8][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[8][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[8][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[8][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[8][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[9][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[9][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[9][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[9][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[9][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[9][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[9][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[9][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[10][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[10][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[10][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[10][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[10][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[10][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[10][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[10][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[11][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[11][6]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[11][5]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[11][4]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[11][3]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[11][2]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[11][1]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[11][0]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[12][7]) is unused and will be removed from module RISC_FP.
+WARNING: [Synth 8-3332] Sequential element (dmem_u/mem_reg[12][6]) is unused and will be removed from module RISC_FP.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     2|
+|3     |LUT4 |     3|
+|4     |FDRE |     7|
+|5     |FDSE |     1|
+|6     |IBUF |     2|
+|7     |OBUF |    60|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-----------+------+
+|      |Instance |Module     |Cells |
++------+---------+-----------+------+
+|1     |top      |           |    76|
+|2     |  ctrl_u |Controller |    13|
++------+---------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 809.066 ; gain = 518.391
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 284 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 809.066 ; gain = 152.566
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 809.066 ; gain = 518.391
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+103 Infos, 134 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 820.660 ; gain = 543.055
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.runs/synth_2/RISC_FP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RISC_FP_utilization_synth.rpt -pb RISC_FP_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 820.660 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May  8 12:58:39 2025...

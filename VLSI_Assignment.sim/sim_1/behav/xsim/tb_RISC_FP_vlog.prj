@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../VLSI_Assignment.srcs/sources_1/new" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/ALU.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/ALU_Control_Unit.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/ALU_DP_Unit.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/Accumulator_Register.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/Address_Mux.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/Controller.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/Data_Memory.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/Instruction_Memory.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/Instruction_Register.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/ProgramCounter.v" \
+"../../../../VLSI_Assignment.srcs/sources_1/new/RISC_FP.v" \
+"../../../../VLSI_Assignment.srcs/sim_1/new/tb_RISC_FP.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Apr 28 22:20:39 2025
+# Process ID: 21500
+# Current directory: C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21116 C:\Users\longt\Downloads\VLSI\Assignment\VLSI_Assignment\VLSI_Assignment.xpr
+# Log file: C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/vivado.log
+# Journal file: C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.xpr

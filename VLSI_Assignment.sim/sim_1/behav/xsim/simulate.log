@@ -1,0 +1,382 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+AC updated = x from ALU = x
+6000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+16000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [IMEM] contents <<<
+IMEM[00] = 011111110
+IMEM[01] = 000000000
+IMEM[02] = 000000000
+IMEM[03] = 010111010
+IMEM[04] = 000100000
+IMEM[05] = 000000000
+IMEM[06] = 010111011
+IMEM[07] = 000100000
+IMEM[08] = 011101010
+IMEM[09] = 000000000
+IMEM[10] = 011011100
+IMEM[11] = 010111010
+IMEM[12] = 011011100
+IMEM[13] = 010111100
+IMEM[14] = 000100000
+IMEM[15] = 000000000
+IMEM[16] = 010011011
+IMEM[17] = 000100000
+IMEM[18] = 011110100
+IMEM[19] = 000000000
+IMEM[20] = 010011011
+IMEM[21] = 000100000
+IMEM[22] = 000000000
+IMEM[23] = 000000000
+IMEM[24] = 011100000
+IMEM[25] = 000000000
+IMEM[26] = 000000000
+IMEM[27] = 000000000
+IMEM[28] = 000000000
+IMEM[29] = 000000000
+IMEM[30] = 011100011
+IMEM[31] = 000000000
+Data Memory content:
+M[00] = 000000000
+M[01] = 000000000
+M[02] = 000000000
+M[03] = 000000000
+M[04] = 000000000
+M[05] = 000000000
+M[06] = 000000000
+M[07] = 000000000
+M[08] = 000000000
+M[09] = 000000000
+M[10] = 000000000
+M[11] = 000000000
+M[12] = 000000000
+M[13] = 000000000
+M[14] = 000000000
+M[15] = 000000000
+M[16] = 000000000
+M[17] = 000000000
+M[18] = 000000000
+M[19] = 000000000
+M[20] = 000000000
+M[21] = 000000000
+M[22] = 000000000
+M[23] = 000000000
+M[24] = 000000000
+M[25] = 000000000
+M[26] = 000000000
+M[27] = 011111111
+M[28] = 010101010
+M[29] = 000000000
+M[30] = 0xxxxxxxx
+M[31] = 0xxxxxxxx
+AC updated = 0 from ALU = 0
+26000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+36000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+46000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0111 at time = 55000
+AC updated = 0 from ALU = 0
+56000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+66000 | state=5 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+76000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+86000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+96000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+106000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+116000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+126000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0111 at time = 135000
+AC updated = 0 from ALU = 0
+136000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+146000 | state=5 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+156000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+166000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+176000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+186000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+196000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+206000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0101 at time = 215000
+AC updated = 0 from ALU = 0
+216000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+>>> [RISC_FP] time=225000 state=5 rd_dm=1 sel=0 addr_dm=26 data_bus=00
+226000 | state=5 rd_imem=0 rd_dmem=1 sel=0 rd_dm=1 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+236000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+246000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+256000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+266000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+276000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+286000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0001 at time = 295000
+AC updated = 0 from ALU = 0
+296000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+306000 | state=5 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+316000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+326000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+336000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+346000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+356000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+366000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0101 at time = 375000
+AC updated = 0 from ALU = 0
+376000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+>>> [RISC_FP] time=385000 state=5 rd_dm=1 sel=0 addr_dm=27 data_bus=00
+386000 | state=5 rd_imem=0 rd_dmem=1 sel=0 rd_dm=1 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+396000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+406000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=00
+AC updated = 255 from ALU = 0
+416000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+426000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+436000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+446000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+>>> [RISC_FP] Latching OPCODE = 0001 at time = 455000
+AC updated = 255 from ALU = 255
+456000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+466000 | state=5 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+476000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+486000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+496000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+506000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+516000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+526000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+>>> [RISC_FP] Latching OPCODE = 0111 at time = 535000
+AC updated = 255 from ALU = 255
+536000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+546000 | state=5 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+556000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+566000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+576000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+586000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+596000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+606000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+>>> [RISC_FP] Latching OPCODE = 0110 at time = 615000
+AC updated = 255 from ALU = 255
+616000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+>>> [RISC_FP] time=625000 state=5 rd_dm=1 sel=0 addr_dm=28 data_bus=ff
+626000 | state=5 rd_imem=0 rd_dmem=1 sel=0 rd_dm=1 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+636000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+>>> [CTRL] STORE at 645000 | opcode=0110 | wr=1
+646000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+656000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+666000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+676000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+686000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+>>> [RISC_FP] Latching OPCODE = 0101 at time = 695000
+AC updated = 255 from ALU = 255
+696000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+>>> [RISC_FP] time=705000 state=5 rd_dm=1 sel=0 addr_dm=26 data_bus=ff
+706000 | state=5 rd_imem=0 rd_dmem=1 sel=0 rd_dm=1 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+716000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+726000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=ff
+AC updated = 0 from ALU = 255
+736000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+746000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+756000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+766000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0110 at time = 775000
+AC updated = 0 from ALU = 0
+776000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+>>> [RISC_FP] time=785000 state=5 rd_dm=1 sel=0 addr_dm=28 data_bus=00
+786000 | state=5 rd_imem=0 rd_dmem=1 sel=0 rd_dm=1 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+796000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+>>> [CTRL] STORE at 805000 | opcode=0110 | wr=1
+806000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+816000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+826000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+836000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+846000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0101 at time = 855000
+AC updated = 0 from ALU = 0
+856000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+>>> [RISC_FP] time=865000 state=5 rd_dm=1 sel=0 addr_dm=28 data_bus=00
+866000 | state=5 rd_imem=0 rd_dmem=1 sel=0 rd_dm=1 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+876000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+886000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+896000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+906000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+916000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+926000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0001 at time = 935000
+AC updated = 0 from ALU = 0
+936000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+946000 | state=5 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+956000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+966000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+976000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+986000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+996000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1006000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0100 at time = 1015000
+AC updated = 0 from ALU = 0
+1016000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+>>> [RISC_FP] time=1025000 state=5 rd_dm=1 sel=0 addr_dm=27 data_bus=00
+1026000 | state=5 rd_imem=0 rd_dmem=1 sel=0 rd_dm=1 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1036000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=00 alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1046000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=00
+AC updated = 255 from ALU = 0
+1056000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=00 ac_out=ff
+AC updated = 0 from ALU = 255
+1066000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=00 ac_out=ff
+AC updated = 0 from ALU = 255
+1076000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=ff
+AC updated = 0 from ALU = 255
+1086000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=ff
+>>> [RISC_FP] Latching OPCODE = 0001 at time = 1095000
+AC updated = 0 from ALU = 255
+1096000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1106000 | state=5 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1116000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1126000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1136000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1146000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1156000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1166000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+>>> [RISC_FP] Latching OPCODE = 0111 at time = 1175000
+AC updated = 255 from ALU = 255
+1176000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1186000 | state=5 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1196000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1206000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1216000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1226000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1236000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+AC updated = 255 from ALU = 255
+1246000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=ff
+>>> [RISC_FP] Latching OPCODE = 0100 at time = 1255000
+AC updated = 255 from ALU = 255
+1256000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=ff
+AC updated = 0 from ALU = 255
+>>> [RISC_FP] time=1265000 state=5 rd_dm=1 sel=0 addr_dm=27 data_bus=ff
+1266000 | state=5 rd_imem=0 rd_dmem=1 sel=0 rd_dm=1 | data_bus=ff alu_out=00 ac_out=ff
+AC updated = 0 from ALU = 255
+1276000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=ff
+AC updated = 0 from ALU = 255
+1286000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=ff
+AC updated = 0 from ALU = 255
+1296000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=00
+AC updated = 255 from ALU = 0
+1306000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=ff ac_out=00
+AC updated = 255 from ALU = 0
+1316000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=00
+AC updated = 255 from ALU = 0
+1326000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=ff ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0001 at time = 1335000
+AC updated = 255 from ALU = 0
+1336000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1346000 | state=5 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1356000 | state=6 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1366000 | state=7 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1376000 | state=0 rd_imem=0 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1386000 | state=1 rd_imem=1 rd_dmem=0 sel=1 rd_dm=0 | data_bus=ff alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1396000 | state=2 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=00
+AC updated = 0 from ALU = 0
+1406000 | state=3 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=00
+>>> [RISC_FP] Latching OPCODE = 0000 at time = 1415000
+AC updated = 0 from ALU = 0
+1416000 | state=4 rd_imem=0 rd_dmem=0 sel=0 rd_dm=0 | data_bus=ff alu_out=00 ac_out=00
+>>> HLT detected at time=1425000, stopping simulation
+$finish called at time : 1425 ns : File "C:/Users/longt/Downloads/VLSI/Assignment/VLSI_Assignment/VLSI_Assignment.srcs/sim_1/new/tb_RISC_FP.v" Line 129
